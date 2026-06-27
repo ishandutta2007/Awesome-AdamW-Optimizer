@@ -9,8 +9,14 @@ The AdamW optimizer is a hardware-aware stochastic gradient descent optimization
 
 The technical progression of gradient-based deep learning optimization reflects a steady trajectory away from rigid, uniform parameter steps toward historical moment tracking, decoupled regularization, and hardware-fused low-precision memory loops.
 
-[SGD with Momentum (1980s)] ----> [Standard Adam (Kingma & Ba, 2014)] ----> [AdamW (Loshchilov & Hutter, 2017)] ----> [Fused 8-Bit AdamW (Modern Era)](Uniform Base Learning Rates)        (L2 Regularization Coupling Bug)          (Decoupled Weight Decay Physics)          (SRAM Tiling & 75% VRAM Savings)
 
+```mermaid
+flowchart LR
+    A["SGD with Momentum (1980s)<br/>(Uniform Base Learning Rates)"]
+    --> B["Standard Adam (Kingma & Ba, 2014)<br/>(L2 Regularization Coupling Bug)"]
+    --> C["AdamW (Loshchilov & Hutter, 2017)<br/>(Decoupled Weight Decay Physics)"]
+    --> D["Fused 8-Bit AdamW (Modern Era)<br/>(SRAM Tiling & 75% VRAM Savings)"]
+```
 
 
 *   **The Uniform Step Era (Classical SGD with Momentum, ~1980s–2010s)**
