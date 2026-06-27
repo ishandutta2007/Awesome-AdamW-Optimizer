@@ -1,7 +1,16 @@
-# Awesome-AdamW-Optimizer
-## AdamW Optimizer: Evolution, Variants, Types, & Applications
+<div align="center">
 
-The AdamW optimizer is a hardware-aware stochastic gradient descent optimization algorithm that serves as the default training engine for modern deep neural networks, including foundational Transformers and Large Language Models (LLMs). Introduced by Ilya Loshchilov and Frank Hutter in 2017 ("Decoupled Weight Decay Regularization"), AdamW fixes a structural mathematical flaw in how the standard Adam optimizer handles $L_2$ regularization. By decoupling the weight decay update directly from the moving averages of the gradient calculations, AdamW preserves the optimization benefits of adaptive learning rates while restoring true regularization performance, driving faster convergence and significantly better model generalization.
+![Awesome AdamW Optimizer Banner](./assets/banner.svg)
+
+# 🚀 Awesome AdamW Optimizer
+
+### 🧠 Evolution, Variants, Types, & Applications in Modern Deep Learning
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+</div>
+
+The **AdamW optimizer** is a hardware-aware stochastic gradient descent optimization algorithm that serves as the default training engine for modern deep neural networks, including foundational Transformers and Large Language Models (LLMs). Introduced by Ilya Loshchilov and Frank Hutter in 2017 ("Decoupled Weight Decay Regularization"), AdamW fixes a structural mathematical flaw in how the standard Adam optimizer handles $L_2$ regularization. By decoupling the weight decay update directly from the moving averages of the gradient calculations, AdamW preserves the optimization benefits of adaptive learning rates while restoring true regularization performance, driving faster convergence and significantly better model generalization.
 
 ---
 
