@@ -78,3 +78,16 @@ Deploying AdamW across massive distributed pipelines requires delicate calibrati
 | [**Frontier Foundation LLM Pre-Training Loops**](./details/foundation_llm_pretraining.md) | **Application:** Serves as the primary mathematical optimizer used to train elite base architectures (e.g., Llama 3, Mistral, Gemma, DeepSeek-V3). Decoupled weight decay allows models to train stably over tens of trillions of multilingual tokens without experiencing performance saturation. | 2020 | [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) |
 | [**High-Resolution Diffusion and Flow-Matching Synthesis**](./details/diffusion_flow_matching.md) | **Application:** Optimizes generative image and video platforms (like FLUX.1 or Stable Diffusion 3.5). AdamW's precise per-parameter tracking calibration allows deep transformer layers to learn low-frequency spatial compositions alongside microscopic high-frequency image textures simultaneously. | 2020 | [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) |
 | [**Distributed Parameter-Efficient Alignment Sprints (LoRA / QLoRA)**](./details/parameter_efficient_alignment.md) | **Application:** Deployed within enterprise post-training pipelines. Fused or 8-bit AdamW profiles optimize target low-rank adapters over domain-specific corporate data (such as legal or medical datasets), updating behavioral personas rapidly within restricted compute infrastructures. | 2021 | [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) |
+
+---
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-AdamW-Optimizer&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AdamW-Optimizer&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AdamW-Optimizer&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-AdamW-Optimizer&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
